@@ -1,0 +1,11 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+.env
+*.pem
+__pycache__/
+.DS_Store
+EOF
+recursos_boto3.json
+recursos_cli.env

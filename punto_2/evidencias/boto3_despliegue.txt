@@ -1,0 +1,12 @@
+Creando S3: bucket-taller-boto3-1792077274...
+Obteniendo AMI y creando instancia EC2 (t3.micro)...
+EC2 creada con ID: i-07e73ad9384f4d86d
+Creando base de datos RDS (tarda unos minutos)...
+Despliegue completo:
+{
+  "bucket": "bucket-taller-boto3-1792077274",
+  "instance_id": "i-07e73ad9384f4d86d",
+  "rds_id": "rds-taller-boto3",
+  "rds_endpoint": "rds-taller-boto3.cbom6eck8n9d.us-east-2.rds.amazonaws.com",
+  "rds_secret_arn": "arn:aws:secretsmanager:us-east-2:************:secret:rds!db-02843c7f-a30f-413e-a1ac-1a13e1a14eb2-MxFxcY"
+}

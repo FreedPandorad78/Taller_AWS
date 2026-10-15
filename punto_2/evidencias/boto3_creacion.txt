@@ -1,0 +1,18 @@
+== S3 ==
+2026-10-15 10:14:36 bucket-taller-boto3-1792077274
+== EC2 ==
+------------------------------------------------
+|               DescribeInstances              |
++----------------------+------------+----------+
+|  i-07e73ad9384f4d86d |  t3.micro  |  running |
++----------------------+------------+----------+
+== RDS ==
+-----------------------------------------------------------
+|                   DescribeDBInstances                   |
++-------------------+------------+--------+---------------+
+|  rds-taller-boto3 |  available |  mysql |  db.t3.micro  |
++-------------------+------------+--------+---------------+
+== Secreto administrado de la RDS ==
+active	arn:aws:secretsmanager:us-east-2:************:secret:rds!db-02843c7f-a30f-413e-a1ac-1a13e1a14eb2-MxFxcY
+== Secrets Manager ==
+rds!db-02843c7f-a30f-413e-a1ac-1a13e1a14eb2

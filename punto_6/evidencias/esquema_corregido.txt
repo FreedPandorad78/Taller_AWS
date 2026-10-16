@@ -1,0 +1,12 @@
+-----------------------------
+|         GetTable          |
++----------------+----------+
+|  envio_id      |  bigint  |
+|  cliente       |  string  |
+|  ciudad        |  string  |
+|  codigo_postal |  string  |
+|  fecha_envio   |  date    |
+|  peso_kg       |  double  |
+|  valor_envio   |  bigint  |
+|  estado        |  string  |
++----------------+----------+

@@ -1,0 +1,25 @@
+envio_id,cliente,ciudad,codigo_postal,fecha_envio,peso_kg,valor_envio,estado
+1,Karen Duque,Cali,760001,2026-03-26,11.4,36500,Entregado
+2,Felipe Ortiz,Medellín,050001,2026-03-07,9.9,32800,Devuelto
+3,Ana Gómez,Medellín,050001,2026-03-14,11.0,35500,Entregado
+4,Bruno Ríos,Barranquilla,080001,2026-03-16,5.3,21200,Devuelto
+5,Bruno Ríos,Barranquilla,080001,2026-04-06,1.2,11000,Entregado
+6,Julián Rojas,Bucaramanga,680001,2026-04-06,11.4,36500,En camino
+7,Isabel Cano,Medellín,050001,2026-03-03,11.7,37200,Entregado
+8,Bruno Ríos,Cali,760001,2026-04-04,5.3,21200,Devuelto
+9,Carla Mejía,Cali,760001,2026-04-13,6.9,25200,Entregado
+10,Felipe Ortiz,Bucaramanga,680001,2026-03-13,7.1,25800,Entregado
+11,Ana Gómez,Bucaramanga,680001,2026-04-06,8.7,29800,Devuelto
+12,Gabriela Soto,Bogotá,110111,2026-04-04,6.2,23500,Entregado
+13,Felipe Ortiz,Barranquilla,080001,2026-03-30,7.2,26000,Entregado
+14,Diego Torres,Bogotá,110111,2026-04-14,9.6,32000,Entregado
+15,Felipe Ortiz,Bucaramanga,680001,2026-04-01,4.0,18000,En camino
+16,Bruno Ríos,Cali,760001,2026-03-05,7.5,26800,Devuelto
+17,Carla Mejía,Barranquilla,080001,2026-03-22,2.4,14000,En camino
+18,Bruno Ríos,Barranquilla,080001,2026-04-12,1.0,10500,Devuelto
+19,Felipe Ortiz,Bucaramanga,680001,2026-03-21,9.6,32000,Entregado
+20,Bruno Ríos,Bucaramanga,680001,2026-03-30,6.2,23500,Entregado
+21,Bruno Ríos,Cali,760001,2026-04-12,6.0,23000,Entregado
+22,Héctor Pardo,Cali,760001,2026-04-13,7.9,27800,Entregado
+23,Ana Gómez,Barranquilla,080001,2026-03-23,10.7,34800,En camino
+24,Héctor Pardo,Cali,760001,2026-03-08,2.4,14000,Entregado

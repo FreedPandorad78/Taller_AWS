@@ -1,0 +1,88 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "GlueCatalogoYCrawler",
+			"Effect": "Allow",
+			"Action": [
+				"glue:CreateDatabase",
+				"glue:DeleteDatabase",
+				"glue:GetDatabase",
+				"glue:GetDatabases",
+				"glue:CreateTable",
+				"glue:UpdateTable",
+				"glue:DeleteTable",
+				"glue:GetTable",
+				"glue:GetTables",
+				"glue:GetPartition",
+				"glue:GetPartitions",
+				"glue:BatchGetPartition",
+				"glue:CreateCrawler",
+				"glue:UpdateCrawler",
+				"glue:DeleteCrawler",
+				"glue:StartCrawler",
+				"glue:GetCrawler",
+				"glue:GetCrawlers"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "Athena",
+			"Effect": "Allow",
+			"Action": [
+				"athena:StartQueryExecution",
+				"athena:GetQueryExecution",
+				"athena:GetQueryResults",
+				"athena:StopQueryExecution",
+				"athena:CreateWorkGroup",
+				"athena:DeleteWorkGroup",
+				"athena:GetWorkGroup"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "RolDelCrawler",
+			"Effect": "Allow",
+			"Action": [
+				"iam:CreateRole",
+				"iam:DeleteRole",
+				"iam:GetRole",
+				"iam:PutRolePolicy",
+				"iam:DeleteRolePolicy",
+				"iam:ListRolePolicies",
+				"iam:ListAttachedRolePolicies",
+				"iam:PassRole"
+			],
+			"Resource": "arn:aws:iam::*:role/taller-glue-*"
+		},
+		{
+			"Sid": "PoliticaGestionadaDeGlue",
+			"Effect": "Allow",
+			"Action": [
+				"iam:AttachRolePolicy",
+				"iam:DetachRolePolicy"
+			],
+			"Resource": "arn:aws:iam::*:role/taller-glue-*",
+			"Condition": {
+				"ArnEquals": {
+					"iam:PolicyARN": "arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole"
+				}
+			}
+		},
+		{
+			"Sid": "VerificarGruposYRegistros",
+			"Effect": "Allow",
+			"Action": [
+				"athena:ListWorkGroups",
+				"logs:DescribeLogGroups"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "BorrarRegistrosDelCrawler",
+			"Effect": "Allow",
+			"Action": "logs:DeleteLogGroup",
+			"Resource": "arn:aws:logs:us-east-2:*:log-group:/aws-glue/crawlers*"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+== Tablas creadas por el crawler ==
+envios
+
+== Columnas inferidas de la tabla envios ==
+-----------------------------
+|         GetTable          |
++----------------+----------+
+|  envio_id      |  bigint  |
+|  cliente       |  string  |
+|  ciudad        |  string  |
+|  codigo_postal |  bigint  |
+|  fecha_envio   |  string  |
+|  peso_kg       |  double  |
+|  valor_envio   |  bigint  |
+|  estado        |  string  |
++----------------+----------+
+
+== Propiedades que el crawler guardó en el catálogo ==
+{
+    "skip.header.line.count": "1",
+    "sizeKey": "1608",
+    "objectCount": "1",
+    "UPDATED_BY_CRAWLER": "taller-crawler",
+    "recordCount": "25",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "averageRecordSize": "64",
+    "compressionType": "none",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "classification": "csv",
+    "columnsOrdered": "true",
+    "delimiter": ",",
+    "areColumnsQuoted": "false",
+    "CRAWL_RUN_ID": "e1ba707d-995b-4d1d-9be7-03da1dad301e",
+    "typeOfData": "file"
+}

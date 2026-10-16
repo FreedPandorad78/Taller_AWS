@@ -1,0 +1,51 @@
+Inicio de la eliminación: Fri Oct 16 16:48:51 -05 2026
+Crawler eliminado.
+Tabla envios eliminada.
+Tabla envios_manual eliminada.
+Base de datos eliminada.
+Grupo de trabajo de Athena eliminado.
+Rol de IAM eliminado.
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/0341465b-ebeb-451d-8ad3-2be202d0845f.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/0e6c385a-b897-4fda-8d89-c367b5d93a6a.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/0341465b-ebeb-451d-8ad3-2be202d0845f.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/1f550895-2c4d-40d7-a927-55be4c743b91.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/116c9832-ea5f-4f47-8c84-14c4750ebab5.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/1f550895-2c4d-40d7-a927-55be4c743b91.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/116c9832-ea5f-4f47-8c84-14c4750ebab5.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/0e6c385a-b897-4fda-8d89-c367b5d93a6a.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/22d3873a-d8b7-443b-89d7-1145a56cba72.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/22d3873a-d8b7-443b-89d7-1145a56cba72.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/340a6e7f-11ff-4c71-bc9e-e75b5e45165f.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/53f16f94-fc04-4929-aae8-e78f4f3e1a6b.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/340a6e7f-11ff-4c71-bc9e-e75b5e45165f.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/80b92b67-1c80-482c-9b32-778e7636e674.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/87392e4b-f4a7-4497-b10b-d9f3dcda96f0.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/93bde1ce-2d89-45d8-9d1b-589186072ccd.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/93bde1ce-2d89-45d8-9d1b-589186072ccd.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/87392e4b-f4a7-4497-b10b-d9f3dcda96f0.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/a0433ef9-ff77-476c-8951-73cf15b21cb1.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/a0433ef9-ff77-476c-8951-73cf15b21cb1.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/b5d6f142-e33d-4133-953b-ed63c6d7e662.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/b5d6f142-e33d-4133-953b-ed63c6d7e662.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c1849c0d-6a92-4d00-9614-5077307003d7.txt
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c1d77184-a90a-477e-999e-c243ff60a329.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c1d77184-a90a-477e-999e-c243ff60a329.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c6358a13-5b53-4f59-b8d8-48bc6d9b4f5e.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c47dbc05-9b7a-44c4-98b1-c9240eb10a29.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c47dbc05-9b7a-44c4-98b1-c9240eb10a29.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/c6358a13-5b53-4f59-b8d8-48bc6d9b4f5e.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/cfff78fb-12b3-4e15-afd4-d74306ffa47c.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/cfff78fb-12b3-4e15-afd4-d74306ffa47c.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/d07a1920-8d52-4c6c-a534-9d78a2889c08.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/e83fa616-1a23-4962-bdbc-4f954fd5a5e0.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/d07a1920-8d52-4c6c-a534-9d78a2889c08.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/e83fa616-1a23-4962-bdbc-4f954fd5a5e0.csv
+delete: s3://bucket-taller-glue-1792185367/envios/envios_1.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/53f16f94-fc04-4929-aae8-e78f4f3e1a6b.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/envios/envios_2.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/73b32a4f-f24e-4a66-96e3-a2961aa7e3e6.csv
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/73b32a4f-f24e-4a66-96e3-a2961aa7e3e6.csv.metadata
+delete: s3://bucket-taller-glue-1792185367/athena-resultados/80b92b67-1c80-482c-9b32-778e7636e674.csv
+remove_bucket: bucket-taller-glue-1792185367
+Bucket eliminado.
+Eliminación completa: Fri Oct 16 16:49:00 -05 2026

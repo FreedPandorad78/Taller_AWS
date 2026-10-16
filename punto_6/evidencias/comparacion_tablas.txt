@@ -1,0 +1,39 @@
+== Columnas de la tabla manual ==
+-----------------------------
+|         GetTable          |
++----------------+----------+
+|  envio_id      |  bigint  |
+|  cliente       |  string  |
+|  ciudad        |  string  |
+|  codigo_postal |  string  |
+|  fecha_envio   |  date    |
+|  peso_kg       |  double  |
+|  valor_envio   |  bigint  |
+|  estado        |  string  |
++----------------+----------+
+
+== Propiedades de la tabla del crawler ==
+{
+    "skip.header.line.count": "1",
+    "sizeKey": "2196",
+    "objectCount": "2",
+    "UPDATED_BY_CRAWLER": "taller-crawler",
+    "recordCount": "34",
+    "CrawlerSchemaSerializerVersion": "1.0",
+    "averageRecordSize": "64",
+    "compressionType": "none",
+    "CrawlerSchemaDeserializerVersion": "1.0",
+    "classification": "csv",
+    "columnsOrdered": "true",
+    "delimiter": ",",
+    "areColumnsQuoted": "false",
+    "CRAWL_RUN_ID": "e1ba707d-995b-4d1d-9be7-03da1dad301e",
+    "typeOfData": "file"
+}
+
+== Propiedades de la tabla manual ==
+{
+    "skip.header.line.count": "1",
+    "EXTERNAL": "TRUE",
+    "transient_lastDdlTime": "1792187232"
+}

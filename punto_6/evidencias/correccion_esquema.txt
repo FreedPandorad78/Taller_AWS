@@ -1,0 +1,4 @@
+Serializador: org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe
+codigo_postal: bigint -> string
+fecha_envio: string -> date
+Tabla actualizada en el catálogo.

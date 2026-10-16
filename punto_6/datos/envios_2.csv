@@ -1,0 +1,9 @@
+envio_id,cliente,ciudad,codigo_postal,fecha_envio,peso_kg,valor_envio,estado
+25,Luis Peña,Bogotá,110111,2026-05-05,9.3,31200,Entregado
+26,Bruno Ríos,Barranquilla,080001,2026-05-16,5.0,20500,Entregado
+27,Carla Mejía,Barranquilla,080001,2026-05-09,5.1,20800,En camino
+28,Felipe Ortiz,Bucaramanga,680001,2026-05-14,3.7,17200,En camino
+29,Carla Mejía,Bogotá,110111,2026-05-06,2.2,13500,Entregado
+30,Carla Mejía,Bogotá,110111,2026-05-19,0.6,9500,Entregado
+31,Isabel Cano,Cali,760001,2026-05-14,0.5,9200,Entregado
+32,Luis Peña,Bucaramanga,680001,2026-05-05,7.0,25500,Devuelto

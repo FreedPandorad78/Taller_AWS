@@ -1,0 +1,10 @@
+== Bases de datos del catálogo (taller_glue) ==
+== Crawlers ==
+== Grupo de trabajo taller-athena (debe no existir) ==
+aws: [ERROR]: An error occurred (InvalidRequestException) when calling the GetWorkGroup operation: WorkGroup is not found.
+== Rol de IAM (debe dar NoSuchEntity) ==
+aws: [ERROR]: An error occurred (NoSuchEntity) when calling the GetRole operation: The role with name taller-glue-crawler-role cannot be found.
+== Buckets ==
+(ninguno)
+== Registros de CloudWatch del crawler ==
+(fin de la verificación)

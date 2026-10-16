@@ -1,0 +1,38 @@
+
+=== Total de registros (bytes escaneados: 2196) ===
+{'total': '32'}
+
+=== Códigos postales por ciudad (comprueba los ceros a la izquierda) (bytes escaneados: 2196) ===
+{'ciudad': 'Barranquilla', 'codigo_postal': '080001'}
+{'ciudad': 'Bogotá', 'codigo_postal': '110111'}
+{'ciudad': 'Bucaramanga', 'codigo_postal': '680001'}
+{'ciudad': 'Cali', 'codigo_postal': '760001'}
+{'ciudad': 'Medellín', 'codigo_postal': '050001'}
+
+=== Filtro: envíos entregados de más de 8 kg (bytes escaneados: 2196) ===
+{'envio_id': '7', 'cliente': 'Isabel Cano', 'ciudad': 'Medellín', 'peso_kg': '11.7', 'valor_envio': '37200'}
+{'envio_id': '1', 'cliente': 'Karen Duque', 'ciudad': 'Cali', 'peso_kg': '11.4', 'valor_envio': '36500'}
+{'envio_id': '3', 'cliente': 'Ana Gómez', 'ciudad': 'Medellín', 'peso_kg': '11.0', 'valor_envio': '35500'}
+{'envio_id': '19', 'cliente': 'Felipe Ortiz', 'ciudad': 'Bucaramanga', 'peso_kg': '9.6', 'valor_envio': '32000'}
+{'envio_id': '14', 'cliente': 'Diego Torres', 'ciudad': 'Bogotá', 'peso_kg': '9.6', 'valor_envio': '32000'}
+{'envio_id': '25', 'cliente': 'Luis Peña', 'ciudad': 'Bogotá', 'peso_kg': '9.3', 'valor_envio': '31200'}
+
+=== Agrupación: resumen por ciudad (bytes escaneados: 2196) ===
+{'ciudad': 'Bucaramanga', 'envios': '8', 'peso_promedio': '7.21', 'valor_total': '208300'}
+{'ciudad': 'Cali', 'envios': '8', 'peso_promedio': '5.99', 'valor_total': '183700'}
+{'ciudad': 'Barranquilla', 'envios': '8', 'peso_promedio': '4.74', 'valor_total': '158800'}
+{'ciudad': 'Bogotá', 'envios': '5', 'peso_promedio': '5.58', 'valor_total': '109700'}
+{'ciudad': 'Medellín', 'envios': '3', 'peso_promedio': '10.87', 'valor_total': '105500'}
+
+=== Agrupación: envíos por estado (bytes escaneados: 2196) ===
+{'estado': 'Entregado', 'envios': '19', 'valor_total': '456900'}
+{'estado': 'Devuelto', 'envios': '7', 'valor_total': '167800'}
+{'estado': 'En camino', 'envios': '6', 'valor_total': '141300'}
+
+=== Agrupación: envíos por mes (comprueba que fecha_envio es de tipo date) (bytes escaneados: 2196) ===
+{'mes': '3', 'envios': '13'}
+{'mes': '4', 'envios': '11'}
+{'mes': '5', 'envios': '8'}
+
+Consultas: 6 | bytes escaneados: 13176 | bytes facturados (mínimo 10 MB por consulta): 62914560
+Costo estimado de Athena a USD 5 por TB: USD 0.00029

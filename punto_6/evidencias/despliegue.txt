@@ -1,0 +1,10 @@
+Creando bucket bucket-taller-glue-1792185367...
+Subido: envios/envios_1.csv
+Creando rol de IAM taller-glue-crawler-role...
+Despliegue completo:
+REGION=us-east-2
+BUCKET=bucket-taller-glue-1792185367
+ROLE_NAME=taller-glue-crawler-role
+DATABASE=taller_glue
+CRAWLER=taller-crawler
+WORKGROUP=taller-athena

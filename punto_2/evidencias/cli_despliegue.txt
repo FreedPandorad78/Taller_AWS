@@ -1,0 +1,10 @@
+Creando S3: bucket-taller-cli-1792079094...
+Obteniendo AMI y creando instancia EC2 (t3.micro)...
+EC2 creada con ID: i-0996664e3879447ee
+Creando base de datos RDS (tarda unos minutos)...
+Despliegue completo:
+BUCKET=bucket-taller-cli-1792079094
+INSTANCE_ID=i-0996664e3879447ee
+RDS_ID=rds-taller-cli
+RDS_ENDPOINT=rds-taller-cli.cbom6eck8n9d.us-east-2.rds.amazonaws.com
+RDS_SECRET_ARN=arn:aws:secretsmanager:us-east-2:************:secret:rds!db-d5ed3afd-ae16-4026-8193-f0e9da020896-k7GqKA

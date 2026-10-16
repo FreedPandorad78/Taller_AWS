@@ -1,0 +1,19 @@
+Conexión exitosa a DocumentDB (contraseña obtenida de Secrets Manager).
+Documentos insertados: 10
+
+=== Filtro: categoría Electrónica y precio > 100 ===
+{"nombre": "Portátil 14 pulgadas", "categoria": "Electrónica", "precio": 2400, "stock": 8}
+{"nombre": "Audífonos inalámbricos", "categoria": "Electrónica", "precio": 180, "stock": 35}
+{"nombre": "Teclado mecánico", "categoria": "Electrónica", "precio": 220, "stock": 20}
+
+=== Ordenación: 5 productos más caros ===
+{"nombre": "Portátil 14 pulgadas", "precio": 2400}
+{"nombre": "Escritorio ajustable", "precio": 780}
+{"nombre": "Silla de oficina", "precio": 450}
+{"nombre": "Teclado mecánico", "precio": 220}
+{"nombre": "Audífonos inalámbricos", "precio": 180}
+
+=== Agregación: resumen por categoría ===
+{"_id": "Electrónica", "cantidad_productos": 4, "precio_promedio": 715.0, "unidades_en_stock": 113}
+{"_id": "Muebles", "cantidad_productos": 3, "precio_promedio": 425.0, "unidades_en_stock": 58}
+{"_id": "Papelería", "cantidad_productos": 3, "precio_promedio": 13.666666666666666, "unidades_en_stock": 525}

@@ -1,0 +1,24 @@
+Inicio de la eliminación: Thu Oct 15 15:20:17 -05 2026
+Eliminando instancia taller-docdb-1...
+Instancia eliminada.
+Eliminando clúster taller-docdb...
+Clúster eliminado.
+Terminando EC2 i-01775212d3c37fd9b...
+EC2 terminada.
+{
+    "Return": true,
+    "GroupId": "sg-03664a89c48a4c2d0"
+}
+Grupo sg-03664a89c48a4c2d0 eliminado.
+{
+    "Return": true,
+    "GroupId": "sg-09703ac199de9d309"
+}
+Grupo sg-09703ac199de9d309 eliminado.
+Subnet group eliminado.
+{
+    "Return": true,
+    "KeyPairId": "key-068c41ee771e010a6"
+}
+Par de claves eliminado.
+Eliminación completa: Thu Oct 15 15:33:50 -05 2026

@@ -1,0 +1,16 @@
+Creando EC2 del túnel (t3.micro)...
+EC2 creada: i-01775212d3c37fd9b
+Creando clúster DocumentDB Serverless...
+Esperando a DocumentDB (unos 10 a 15 minutos)...
+Despliegue completo:
+REGION=us-east-2
+VPC_ID=vpc-070f66f3ecd391e57
+SG_EC2=sg-09703ac199de9d309
+SG_DOCDB=sg-03664a89c48a4c2d0
+SUBNET_GROUP=taller-docdb-subnets
+INSTANCE_ID=i-01775212d3c37fd9b
+CLUSTER_ID=taller-docdb
+DB_INSTANCE_ID=taller-docdb-1
+DOCDB_ENDPOINT=taller-docdb.cluster-cbom6eck8n9d.us-east-2.docdb.amazonaws.com
+SECRET_ARN=arn:aws:secretsmanager:us-east-2:************:secret:rds!cluster-f506f605-c2b9-4398-9c46-09dec55501d2-SOUgfp
+EC2_DNS=ec2-3-19-222-123.us-east-2.compute.amazonaws.com

@@ -1,0 +1,14 @@
+== Clústeres DocumentDB ==
+== EC2 del túnel ==
+---------------------------------------
+|          DescribeInstances          |
++----------------------+--------------+
+|  i-05014c61ee9add86f |  terminated  |
+|  i-01775212d3c37fd9b |  terminated  |
++----------------------+--------------+
+== Grupos de seguridad ==
+== Subnet groups ==
+default	default-vpc-070f66f3ecd391e57
+== Pares de claves ==
+kp
+== Secretos ==

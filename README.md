@@ -4,6 +4,8 @@ Código, consultas, instrucciones y evidencias de la Actividad AWS (seis puntos)
 
 Repositorio: https://github.com/FreedPandorad78/Taller_AWS
 
+Informe con las respuestas, los costos y las evidencias: [informe/Actividad_AWS.pdf](informe/Actividad_AWS.pdf)
+
 ## Requisitos
 
 - AWS CLI v2 configurada con `aws configure` para `user_cli`. Comprobación: `aws sts get-caller-identity` debe mostrar `user/user_cli`.

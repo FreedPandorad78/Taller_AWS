@@ -1,0 +1,43 @@
+
+== EC2: instancias que no están terminadas ==
+
+== EBS: volúmenes ==
+
+== EBS: snapshots propios ==
+
+== IP elásticas ==
+
+== NAT gateways activas ==
+
+== Grupos de seguridad del taller ==
+
+== Pares de claves ==
+kp
+
+== RDS: instancias ==
+
+== DocumentDB: clústeres ==
+
+== Neptune: clústeres ==
+
+== Snapshots manuales de bases de datos ==
+
+== Copias automáticas retenidas de RDS ==
+
+== Redshift: clústeres, namespaces y workgroups ==
+
+aws: [ERROR]: An error occurred (AccessDenied) when calling the DescribeClusters operation: User: arn:aws:iam::************:user/user_cli is not authorized to perform: redshift:DescribeClusters on resource: arn:aws:redshift:us-east-2:************:cluster:* because no identity-based policy allows the redshift:DescribeClusters action
+
+== Secretos (incluye los programados para eliminación) ==
+
+== Buckets de S3 ==
+2026-09-17 07:29:57 dor-0302-de
+
+== Glue: bases de datos y crawlers ==
+db	default
+
+== Roles de IAM del taller (puede dar AccessDenied) ==
+
+aws: [ERROR]: An error occurred (AccessDenied) when calling the ListRoles operation: User: arn:aws:iam::************:user/user_cli is not authorized to perform: iam:ListRoles on resource: arn:aws:iam::************:role/ because no identity-based policy allows the iam:ListRoles action
+
+(fin de la revisión)

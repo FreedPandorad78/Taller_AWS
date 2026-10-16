@@ -1,0 +1,11 @@
+Creando clúster Neptune 1.4.8.1 con autenticación IAM...
+Creando instancia db.t4g.medium (pública)...
+Esperando a Neptune (unos 10 a 15 minutos)...
+Despliegue completo:
+REGION=us-east-2
+VPC_ID=vpc-070f66f3ecd391e57
+SG_NEPTUNE=sg-0c133dfc10e4b9995
+SUBNET_GROUP=taller-neptune-subnets
+CLUSTER_ID=taller-neptune
+DB_INSTANCE_ID=taller-neptune-1
+NEPTUNE_ENDPOINT=taller-neptune.cluster-cbom6eck8n9d.us-east-2.neptune.amazonaws.com

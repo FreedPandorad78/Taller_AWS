@@ -1,0 +1,23 @@
+Conectando a Neptune con autenticación IAM (user_cli)...
+
+=== Vértices cargados ===
+{"vertices": 10}
+
+=== Relaciones cargadas ===
+{"relaciones": 20}
+
+=== Consulta 1: personas que conoce Ana a través de otra persona (2 saltos) ===
+{"nombre": "Diego"}
+
+=== Consulta 2: empresa y ciudad sede de cada persona ===
+{"persona": "Ana", "empresa": "DataCorp", "sede": "Medellín"}
+{"persona": "Bruno", "empresa": "DataCorp", "sede": "Medellín"}
+{"persona": "Carla", "empresa": "NubeSoft", "sede": "Bogotá"}
+{"persona": "Diego", "empresa": "NubeSoft", "sede": "Bogotá"}
+{"persona": "Elena", "empresa": "NubeSoft", "sede": "Bogotá"}
+{"persona": "Felipe", "empresa": "DataCorp", "sede": "Medellín"}
+
+=== Consulta 3: compañeros de empresa que se conocen ===
+{"persona": "Ana", "conoce_a": "Bruno", "empresa": "DataCorp"}
+{"persona": "Carla", "conoce_a": "Diego", "empresa": "NubeSoft"}
+{"persona": "Diego", "conoce_a": "Elena", "empresa": "NubeSoft"}

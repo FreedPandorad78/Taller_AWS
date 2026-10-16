@@ -1,0 +1,38 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AdministrarNeptune",
+      "Effect": "Allow",
+      "Action": [
+        "rds:CreateDBCluster",
+        "rds:DeleteDBCluster",
+        "rds:ModifyDBCluster",
+        "rds:CreateDBInstance",
+        "rds:DeleteDBInstance",
+        "rds:ModifyDBInstance",
+        "rds:CreateDBSubnetGroup",
+        "rds:DeleteDBSubnetGroup",
+        "rds:AddTagsToResource",
+        "rds:ListTagsForResource",
+        "rds:Describe*"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringEquals": { "aws:RequestedRegion": "us-east-2" }
+      }
+    },
+    {
+      "Sid": "ConsultarGrafo",
+      "Effect": "Allow",
+      "Action": [
+        "neptune-db:ReadDataViaQuery",
+        "neptune-db:WriteDataViaQuery",
+        "neptune-db:DeleteDataViaQuery",
+        "neptune-db:GetEngineStatus",
+        "neptune-db:GetQueryStatus"
+      ],
+      "Resource": "arn:aws:neptune-db:us-east-2:*:*/*"
+    }
+  ]
+}

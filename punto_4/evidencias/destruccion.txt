@@ -1,0 +1,12 @@
+Inicio de la eliminación: Fri Oct 16 15:22:53 -05 2026
+Eliminando instancia taller-neptune-1...
+Instancia eliminada.
+Eliminando clúster taller-neptune...
+Clúster eliminado.
+{
+    "Return": true,
+    "GroupId": "sg-0c133dfc10e4b9995"
+}
+Grupo de seguridad eliminado.
+Subnet group eliminado.
+Eliminación completa: Fri Oct 16 15:31:50 -05 2026

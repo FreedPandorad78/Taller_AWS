@@ -1,6 +1,8 @@
 # Taller AWS - Ingeniería de Datos 2026-2
 
-Código, consultas, instrucciones y evidencias de la Actividad AWS (seis puntos). Todo se ejecutó en una sola región, **us-east-2 (Ohio)**, con el usuario de IAM `user_cli` y nunca con la cuenta raíz. Los recursos se eliminaron al terminar cada punto. Las respuestas a las preguntas, las estimaciones de costos y los diagramas están en el informe entregado.
+Código, consultas, instrucciones y evidencias de la Actividad AWS (seis puntos). Todo se ejecutó en una sola región, **us-east-2 (Ohio)**. Los comandos, programas y Terraform se ejecutaron con el usuario de IAM `user_cli`, sin las credenciales de la cuenta raíz. Los recursos se eliminaron al terminar cada punto. Las respuestas a las preguntas, las estimaciones de costos y los diagramas están en el informe entregado.
+
+Repositorio: https://github.com/FreedPandorad78/Taller_AWS
 
 ## Requisitos
 

@@ -1,0 +1,50 @@
+Subido a S3: clientes.csv
+Subido a S3: pedidos.csv
+Tablas creadas: clientes y pedidos
+COPY terminado: clientes
+COPY terminado: pedidos
+
+=== Filas cargadas ===
+{"tabla": "clientes", "filas": 20}
+{"tabla": "pedidos", "filas": 80}
+
+=== Consulta 1 (filtro): pedidos con total de 4000 o más ===
+{"pedido_id": 60, "producto": "Portátil", "cantidad": 5, "valor_unitario": "2400.00", "total": "12000.00"}
+{"pedido_id": 64, "producto": "Portátil", "cantidad": 5, "valor_unitario": "2400.00", "total": "12000.00"}
+{"pedido_id": 78, "producto": "Portátil", "cantidad": 5, "valor_unitario": "2400.00", "total": "12000.00"}
+{"pedido_id": 11, "producto": "Portátil", "cantidad": 3, "valor_unitario": "2400.00", "total": "7200.00"}
+{"pedido_id": 21, "producto": "Portátil", "cantidad": 3, "valor_unitario": "2400.00", "total": "7200.00"}
+{"pedido_id": 57, "producto": "Portátil", "cantidad": 2, "valor_unitario": "2400.00", "total": "4800.00"}
+{"pedido_id": 69, "producto": "Portátil", "cantidad": 2, "valor_unitario": "2400.00", "total": "4800.00"}
+{"pedido_id": 2, "producto": "Monitor", "cantidad": 5, "valor_unitario": "900.00", "total": "4500.00"}
+{"pedido_id": 19, "producto": "Monitor", "cantidad": 5, "valor_unitario": "900.00", "total": "4500.00"}
+{"pedido_id": 29, "producto": "Monitor", "cantidad": 5, "valor_unitario": "900.00", "total": "4500.00"}
+
+=== Consulta 2 (unión): pedidos con el nombre y la ciudad del cliente ===
+{"pedido_id": 1, "nombre": "Bruno Ríos", "ciudad": "Bogotá", "producto": "Audífonos", "total": "720.00"}
+{"pedido_id": 2, "nombre": "Carla Mejía", "ciudad": "Bogotá", "producto": "Monitor", "total": "4500.00"}
+{"pedido_id": 3, "nombre": "Sofía Giraldo", "ciudad": "Barranquilla", "producto": "Teclado", "total": "440.00"}
+{"pedido_id": 4, "nombre": "Héctor Pardo", "ciudad": "Bogotá", "producto": "Monitor", "total": "2700.00"}
+{"pedido_id": 5, "nombre": "Diego Torres", "ciudad": "Bucaramanga", "producto": "Monitor", "total": "3600.00"}
+{"pedido_id": 6, "nombre": "Luis Peña", "ciudad": "Bogotá", "producto": "Teclado", "total": "440.00"}
+{"pedido_id": 7, "nombre": "Gabriela Soto", "ciudad": "Medellín", "producto": "Audífonos", "total": "540.00"}
+{"pedido_id": 8, "nombre": "Rafael Mora", "ciudad": "Medellín", "producto": "Monitor", "total": "1800.00"}
+{"pedido_id": 9, "nombre": "Marta Salazar", "ciudad": "Bucaramanga", "producto": "Escritorio", "total": "2340.00"}
+{"pedido_id": 10, "nombre": "Bruno Ríos", "ciudad": "Bogotá", "producto": "Silla", "total": "900.00"}
+
+=== Consulta 3 (agregación): ventas por producto ===
+{"producto": "Portátil", "pedidos": 12, "unidades": 30, "ventas": "72000.00", "ticket_promedio": "6000.00"}
+{"producto": "Monitor", "pedidos": 15, "unidades": 55, "ventas": "49500.00", "ticket_promedio": "3300.00"}
+{"producto": "Escritorio", "pedidos": 11, "unidades": 39, "ventas": "30420.00", "ticket_promedio": "2765.45"}
+{"producto": "Silla", "pedidos": 8, "unidades": 20, "ventas": "9000.00", "ticket_promedio": "1125.00"}
+{"producto": "Teclado", "pedidos": 10, "unidades": 32, "ventas": "7040.00", "ticket_promedio": "704.00"}
+{"producto": "Audífonos", "pedidos": 7, "unidades": 23, "ventas": "4140.00", "ticket_promedio": "591.42"}
+{"producto": "Lámpara", "pedidos": 10, "unidades": 26, "ventas": "1170.00", "ticket_promedio": "117.00"}
+{"producto": "Mouse", "pedidos": 7, "unidades": 15, "ventas": "900.00", "ticket_promedio": "128.57"}
+
+=== Consulta 4 (filtro + unión + agregación): ventas por ciudad desde abril de 2026 ===
+{"ciudad": "Bucaramanga", "clientes_con_pedidos": 6, "pedidos": 19, "ventas": "38065.00"}
+{"ciudad": "Bogotá", "clientes_con_pedidos": 5, "pedidos": 17, "ventas": "30695.00"}
+{"ciudad": "Barranquilla", "clientes_con_pedidos": 2, "pedidos": 7, "ventas": "23100.00"}
+{"ciudad": "Medellín", "clientes_con_pedidos": 5, "pedidos": 14, "ventas": "19145.00"}
+{"ciudad": "Cali", "clientes_con_pedidos": 2, "pedidos": 3, "ventas": "14625.00"}

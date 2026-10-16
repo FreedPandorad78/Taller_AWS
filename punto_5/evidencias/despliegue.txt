@@ -1,0 +1,13 @@
+Creando bucket bucket-taller-redshift-1792183833...
+Creando rol de IAM taller-redshift-s3-role...
+Creando namespace de Redshift Serverless...
+Creando workgroup de 4 RPU (unos minutos)...
+Despliegue completo:
+REGION=us-east-2
+BUCKET=bucket-taller-redshift-1792183833
+ROLE_NAME=taller-redshift-s3-role
+ROLE_ARN=arn:aws:iam::************:role/taller-redshift-s3-role
+SG_REDSHIFT=sg-0f1db4c56edaae940
+NAMESPACE=taller-redshift
+SECRET_ARN=arn:aws:secretsmanager:us-east-2:************:secret:redshift!taller-redshift-admin-tCwEGj
+WORKGROUP=taller-wg

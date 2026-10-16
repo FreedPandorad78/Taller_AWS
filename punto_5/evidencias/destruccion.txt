@@ -1,0 +1,16 @@
+Inicio de la eliminación: Fri Oct 16 15:56:30 -05 2026
+Eliminando workgroup taller-wg...
+Workgroup eliminado.
+Eliminando namespace taller-redshift...
+Namespace eliminado.
+{
+    "Return": true,
+    "GroupId": "sg-0f1db4c56edaae940"
+}
+Grupo de seguridad eliminado.
+Rol de IAM eliminado.
+delete: s3://bucket-taller-redshift-1792183833/clientes.csv
+delete: s3://bucket-taller-redshift-1792183833/pedidos.csv
+remove_bucket: bucket-taller-redshift-1792183833
+Bucket eliminado.
+Eliminación completa: Fri Oct 16 15:59:02 -05 2026

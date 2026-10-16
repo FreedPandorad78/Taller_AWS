@@ -1,0 +1,30 @@
+== Namespace ==
+------------------------------------------------------------------------------------------------
+|                                         GetNamespace                                         |
++----------------------------------------------------------------------------------------------+
+|  taller-redshift                                                                             |
+|  AVAILABLE                                                                                   |
+|  admin                                                                                       |
+|  dev                                                                                         |
+|  arn:aws:secretsmanager:us-east-2:************:secret:redshift!taller-redshift-admin-tCwEGj  |
++----------------------------------------------------------------------------------------------+
+== Workgroup ==
+---------------
+|GetWorkgroup |
++-------------+
+|  taller-wg  |
+|  AVAILABLE  |
+|  4          |
+|  False      |
++-------------+
+== Límite de uso ==
+----------------------------------------------------
+|                  ListUsageLimits                 |
++---------------------+----+--------+--------------+
+|  serverless-compute |  5 |  daily |  deactivate  |
++---------------------+----+--------+--------------+
+== Rol de IAM ==
+taller-redshift-s3-role
+leer-bucket-taller
+== Bucket ==
+2026-10-16 15:50:35 bucket-taller-redshift-1792183833
